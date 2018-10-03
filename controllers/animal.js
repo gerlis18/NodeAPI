@@ -20,7 +20,11 @@ function updateAnimal(req, res) {
 }
 
 function findById(req, res) {
-  
+  AnimalModel.findById({_id: req.body.id}, (err, animales) => {
+    if (err) return res.status(500).send({ err });
+
+    res.status(200).send({ animales })
+  })
 }
 
 function findAll(req, res) {
@@ -32,7 +36,11 @@ function findAll(req, res) {
 }
 
 function deleteAnimal(req, res) {
-  
+  AnimalModel.findByIdAndRemove({_id: req.body.id}, (err) => {
+    if (err) return res.status(500).send({ err });
+
+    res.status(200);
+  })
 }
 
 module.exports = {

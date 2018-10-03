@@ -15,7 +15,7 @@ function jwt() {
 }
 
 async function isRevoked(req, payload, done) {
-    // const user = await animal.getById(payload.sub);
+    // const aniaml = await animal.getById(payload.sub);
 
     // revoke token under the given conditions(problem scope not defined in issue)
     // if (!user) {
