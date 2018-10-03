@@ -4,11 +4,12 @@ const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const config = require('./config');
 const animalRoute = require('./routes/animal');
+const jwt = require('./middlewares/jwt');
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-app.use('/api', animalRoute);
+app.use('/api',jwt, animalRoute);
 
 mongoose.connect(config.db_url, { useNewUrlParser: true }, (err) => {
   if (err) return console.log(`Ha ocurrido un error con la conexion ${err}`);
