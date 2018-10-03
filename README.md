@@ -1,6 +1,10 @@
-# Nodejs API Example with MongoDB
+# Learning Node.js with MongoDB / Aprendiendo Node.js con MongoDB
 
 Este repositorio es para subir codigo para nuestro servidor Nodejs con MongoDB, el cual utilizaremos para subir los ejemplos que vayamos haciendo.
+
+## Como Contribuir
+
+Por favor primero lee nuestra guia de como hacerlo en [Guia de contribución](CONTRIBUTING.md)
 
 ## Links de clases en video
 
@@ -11,3 +15,9 @@ Este repositorio es para subir codigo para nuestro servidor Nodejs con MongoDB, 
 
 - [x] Introducción a Node
 - [ ] Seguridad con JWT
+- [ ] Pruebas unitarias con Jest o Mocha
+- [ ] Clase generica para manejo de errores
+- [ ] Logs
+- [ ] Integracion continua
+- [ ] DevOps
+- [ ] ¿Que más?
