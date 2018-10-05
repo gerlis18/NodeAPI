@@ -21,3 +21,8 @@ Por favor primero lee nuestra guia de como hacerlo en [Guia de contribución](CO
 - [ ] Integracion continua
 - [ ] DevOps
 - [ ] ¿Que más?
+
+## Como iniciar el proyecto
+- Instalar dependencias: [nodejs](https://nodejs.org/es/), [MongoDB](https://www.mongodb.com/download-center?initial=true#community)
+- En el directorio del proyecto, instalar dependencias de NPM: `npm install`
+- Iniciar proyecto: `npm start`
