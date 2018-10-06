@@ -21,9 +21,3 @@ Por favor primero lee nuestra guia de como hacerlo en [Guia de contribución](CO
 - [ ] Integracion continua
 - [ ] DevOps
 - [ ] ¿Que más?
-
-## Como iniciar el proyecto
-- Instalar dependencias: [nodejs](https://nodejs.org/es/), [MongoDB](https://www.mongodb.com/download-center?initial=true#community)
-- Crear archivo `.env` usando como base `.env.example`. Reemplaza `PORT` y `MONGO_URL` con los accesos a una base de datos local en mongodb.
-- En el directorio del proyecto, instalar dependencias de NPM: `npm install`
-- Iniciar proyecto: `npm start`
