@@ -1,5 +1,5 @@
 const expressJwt = require('express-jwt');
-const config = require('config.json');
+const config = require('../config');
 const animal=require('../controllers/animal');
 
 module.exports = jwt;
@@ -14,7 +14,7 @@ function jwt() {
     });
 }
 
-async function isRevoked(req, payload, done) {
+function isRevoked(req, payload, done) {
     // const aniaml = await animal.getById(payload.sub);
 
     // revoke token under the given conditions(problem scope not defined in issue)

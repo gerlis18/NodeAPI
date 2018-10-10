@@ -7,6 +7,6 @@ const jwt = require('./middlewares/jwt');
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-app.use('/api',jwt, animalRoute);
+app.use('/api', animalRoute);
 
 module.exports=app;

@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js",
-    "test": "jest"
+    "test": "jest --verbose --forceExit --detectOpenHandles"
   },
   "keywords": [
     "Node",
@@ -20,7 +20,7 @@
     "mongoose": "^5.2.18",
     "express-jwt": "^5.3.1",
     "supertest": "^3.3.0",
-    "jest": "^23.6.0",
+    "jest": "^23.6.0"
   },
   "devDependencies": {
     "dotenv": "^6.0.0",
