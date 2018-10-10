@@ -15,7 +15,7 @@ Por favor primero lee nuestra guia de como hacerlo en [Guia de contribución](CO
 
 - [x] Introducción a Node
 - [x] Seguridad con JWT
-- [ ] Pruebas unitarias con Jest o Mocha
+- [x] Pruebas unitarias con Jest o Mocha
 - [ ] Clase generica para manejo de errores
 - [ ] Logs
 - [ ] Integracion continua
