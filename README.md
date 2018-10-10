@@ -14,10 +14,15 @@ Por favor primero lee nuestra guia de como hacerlo en [Guia de contribución](CO
 ## Pasos a Seguir
 
 - [x] Introducción a Node
-- [ ] Seguridad con JWT
+- [x] Seguridad con JWT
 - [ ] Pruebas unitarias con Jest o Mocha
 - [ ] Clase generica para manejo de errores
 - [ ] Logs
 - [ ] Integracion continua
 - [ ] DevOps
 - [ ] ¿Que más?
+
+## Como iniciar el proyecto
+- Instalar dependencias: [nodejs](https://nodejs.org/es/), [MongoDB](https://www.mongodb.com/download-center?initial=true#community)
+- En el directorio del proyecto, instalar dependencias de NPM: `npm install`
+- Iniciar proyecto: `npm start`

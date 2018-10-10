@@ -36,4 +36,4 @@ La **Descripion** debe ser corta especificando que fue lo que exactamente se hiz
 - Clonar el repositorio(copia) al que le hicieron **Fork**
 - Crear una nueva rama `git branch nombre-rama`
 - Hacer los cambios pertinentes
-- Commit, push y pull request a la rama **master**
+- Commit, push y pull request a la rama **develop**

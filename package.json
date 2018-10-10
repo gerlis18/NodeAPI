@@ -17,11 +17,13 @@
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
-    "jest": "^23.6.0",
     "mongoose": "^5.2.18",
-    "supertest": "^3.3.0"
+    "express-jwt": "^5.3.1",
+    "supertest": "^3.3.0",
+    "jest": "^23.6.0",
   },
   "devDependencies": {
+    "dotenv": "^6.0.0",
     "nodemon": "^1.18.4"
   }
 }
