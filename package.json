@@ -2,9 +2,9 @@
   "name": "api-animal",
   "version": "1.0.0",
   "description": "Este un proyecto node de prueba",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "nodemon server.js",
     "test": "jest"
   },
   "keywords": [
