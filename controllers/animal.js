@@ -16,14 +16,22 @@ function createAnimal(req, res) {
 }
 
 function updateAnimal(req, res) {
-  
+  let id = req.params.id;
+  if (!id) return res.status(404).send({ msg: 'Bad request, id is required' });
+
+  AnimalModel.findByIdAndUpdate(id, req.body, (err, animalUpdated) => {
+    res.status(200).send({ msg: 'Animal was updated', animalUpdated });
+  });
 }
 
 function findById(req, res) {
-  AnimalModel.findById({_id: req.body.id}, (err, animales) => {
-    if (err) return res.status(500).send({ err });
+  let id = req.params.id;
+  if (!id) return res.status(404).send({ err: 'Bad request, id is required' });
 
-    res.status(200).send({ animales })
+  AnimalModel.findById({_id: req.params.id}, (err, animal) => {
+    if (err) return res.status(500).send({ err: { msg: 'Ops, something went wrong' } });
+
+    res.status(200).send({ animal })
   })
 }
 
