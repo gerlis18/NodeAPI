@@ -1,8 +1,6 @@
 const AnimalModel = require('../models/animal');
 
 function createAnimal(req, res) {
-  if (!req.body.nombre) return res.status(404).send({ msg: 'El request esta mal hecho' });
-
   let AnimalSchema = new AnimalModel();
   AnimalSchema.nombre = req.body.nombre;
   AnimalSchema.sexo = req.body.sexo;
@@ -44,10 +42,10 @@ function findAll(req, res) {
 }
 
 function deleteAnimal(req, res) {
-  AnimalModel.findByIdAndRemove({_id: req.body.id}, (err) => {
+  AnimalModel.findByIdAndRemove({_id: req.params.id}, (err) => {
     if (err) return res.status(500).send({ err });
 
-    res.status(200);
+    res.status(200).send({ msg: 'Removed animal with id' + req.params.id })
   })
 }
 

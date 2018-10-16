@@ -26,6 +26,7 @@
   },
   "devDependencies": {
     "dotenv": "^6.0.0",
-    "nodemon": "^1.18.4"
+    "nodemon": "^1.18.4",
+    "mockingoose": "^2.10.1"
   }
 }

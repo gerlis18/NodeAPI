@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/gerlis18/NodeAPI/tree/master.svg?style=svg)](https://circleci.com/gh/gerlis18/NodeAPI/tree/master)
+
 # Learning Node.js with MongoDB / Aprendiendo Node.js con MongoDB
 
 Este repositorio es para subir codigo para nuestro servidor Nodejs con MongoDB, el cual utilizaremos para subir los ejemplos que vayamos haciendo.
