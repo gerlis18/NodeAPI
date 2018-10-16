@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js",
-    "test": "jest --verbose --forceExit --detectOpenHandles"
+    "test": "jest --forceExit --detectOpenHandles"
   },
   "keywords": [
     "Node",
