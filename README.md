@@ -25,4 +25,5 @@ Por favor primero lee nuestra guia de como hacerlo en [Guia de contribución](CO
 ## Como iniciar el proyecto
 - Instalar dependencias: [nodejs](https://nodejs.org/es/), [MongoDB](https://www.mongodb.com/download-center?initial=true#community)
 - En el directorio del proyecto, instalar dependencias de NPM: `npm install`
+- Antes de iniciar el proyecto copia las siguientes [variables de entorno](https://github.com/gerlis18/NodeAPI/wiki#envs)
 - Iniciar proyecto: `npm start`
