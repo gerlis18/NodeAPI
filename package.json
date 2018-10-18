@@ -4,7 +4,8 @@
   "description": "Este un proyecto node de prueba",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "node server.js",
+    "develop": "nodemon server.js",
     "test": "jest --forceExit --detectOpenHandles"
   },
   "keywords": [
