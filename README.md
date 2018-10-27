@@ -20,7 +20,7 @@ Por favor primero lee nuestra guia de como hacerlo en [Guia de contribución](CO
 - [x] Pruebas unitarias con Jest o Mocha
 - [ ] Clase generica para manejo de errores
 - [ ] Logs
-- [ ] Integracion continua
+- [x] Integracion continua
 - [ ] DevOps
 - [ ] ¿Que más?
 
