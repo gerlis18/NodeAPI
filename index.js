@@ -17,7 +17,7 @@ app.use(methodOverride());
  */
 app.use(errorHandlers.logErrors);
 app.use(errorHandlers.errorHandler);
-
+app.use(jwt);
 
 /**
  * Console debugger for nodejs
