@@ -29,3 +29,6 @@ Por favor primero lee nuestra guia de como hacerlo en [Guia de contribución](CO
 - En el directorio del proyecto, instalar dependencias de NPM: `npm install`
 - Antes de iniciar el proyecto copia las siguientes [variables de entorno](https://github.com/gerlis18/NodeAPI/wiki#envs)
 - Iniciar proyecto: `npm start`
+- Guía para dockerizar un entorno NodeJS
+    https://medium.com/devschile/dockerizando-nodejs-y-mongodb-ad24fedab8f2
+    Y el repositorio con el código: https://github.com/mortegac/DockerizandoNodeMongodb
