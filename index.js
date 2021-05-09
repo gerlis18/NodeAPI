@@ -21,7 +21,14 @@ app.use(errorHandlers.errorHandler);
 
 /**
  * Console debugger for nodejs
+ Instalar npm winston --save
  */
+function logger(event, eventInfo ){
+  const winston = requiere ('winston')
+  winston.log(event, eventInfo)
+}
+
+
 app.use((req, res, next) => {
     debug(`${req.method} ${req.url}`);
     next();
